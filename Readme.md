@@ -249,3 +249,8 @@ Some possible directions for extending this project:
 ## Final Thoughts
 
 The objective of this project was not only to train a high-performing machine learning model, but also to build a complete and reproducible ML workflow. It covers data analysis, feature engineering, model comparison, explainability, and deployment, closely reflecting the stages involved in real-world machine learning projects.
+
+## Live API
+
+URL: <https://hotel-booking-api-6jux.onrender.com>
+Swagger Docs: <https://hotel-booking-api-6jux.onrender.com/docs>
