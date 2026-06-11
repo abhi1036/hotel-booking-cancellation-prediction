@@ -2,9 +2,13 @@ from fastapi import FastAPI
 from pydantic import BaseModel
 import pandas as pd
 import joblib
+from pathlib import Path
 
 # Load trained pipeline
-model = joblib.load("models/hotel_cancellation_model.pkl")
+BASE_DIR = Path(__file__).resolve().parent.parent
+MODEL_PATH = BASE_DIR / "models" / "hotel_cancellation_model.pkl"
+
+model = joblib.load(MODEL_PATH)
 
 # Create FastAPI app
 app = FastAPI(
